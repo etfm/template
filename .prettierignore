@@ -1,0 +1,4 @@
+node_modules/
+**/*.sh
+.DS_Store
+.husky/

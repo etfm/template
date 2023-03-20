@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "pnpm install",
+    "clean": "rimraf node_modules && lerna clean",
+    "reinstall": "pnpm clean && pnpm bootstrap",
+    "prepare": "is-ci || husky install",
+    "lint:lint-staged": "lint-staged -c ./lintstagedrc.json",
+    "commit": "czg"
+  },
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  }
+}
