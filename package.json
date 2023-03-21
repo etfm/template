@@ -10,6 +10,14 @@
     "commit": "czg"
   },
   "devDependencies": {
-    "lerna": "^6.5.1"
+    "@commitlint/cli": "^17.4.4",
+    "cz-git": "^1.6.0",
+    "czg": "^1.6.0",
+    "fast-glob": "^3.2.12",
+    "husky": "^8.0.0",
+    "is-ci": "^3.0.1",
+    "lerna": "^6.5.1",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.5"
   }
 }
