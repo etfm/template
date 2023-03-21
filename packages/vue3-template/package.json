@@ -1,0 +1,26 @@
+{
+  "name": "vue3-template",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "lzdjack <1956252575@qq.com>",
+  "homepage": "https://github.com/etfm/template#readme",
+  "license": "ISC",
+  "main": "lib/vue3-template.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etfm/template.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/vue3-template.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/etfm/template/issues"
+  }
+}
